@@ -1,17 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+ <!-- <Todo/>
+ <Counter/> -->
+ <Debounce/>
+ <Mock/>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import Todo from "./components/Todo.vue"
+import Counter from "./components/Counter.vue"
+import Debounce from "./components/Debounce.vue";
+import Mock from "./components/Mock.vue";
 </script>
 
 <style>
